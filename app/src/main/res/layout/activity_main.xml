@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_spm"
+        android:layout_width="146dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginBottom="58dp"
+        android:background=" #ff3333"
+        android:textColor="#ffffff"
+        android:text="SPM"
+        app:layout_constraintBottom_toTopOf="@+id/btn_O_level"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_O_level"
+        android:layout_width="146dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="44dp"
+        android:text="O Level"
+        android:textColor="#ffffff"
+     android:background="#3333ff"
+        app:layout_constraintBottom_toTopOf="@+id/btn_UEC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_spm" />
+
+    <Button
+        android:id="@+id/btn_UEC"
+        android:layout_width="146dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="226dp"
+        android:text="UEC"
+
+        android:textColor="#ffffff"
+        android:background="#47d147"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_O_level" />
+
+</android.support.constraint.ConstraintLayout>
